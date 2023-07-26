@@ -1,0 +1,35 @@
+body{
+  background-image: url(../Images/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 3rem;
+  font-size: 80px;
+  font-family: Impact;
+}
+
+.btn{
+  width: 250px;
+  height: 80px;
+  background-color:rgba(33, 37, 41, 1);
+  color: white;
+}
+
+p{
+  font-size:25px;
+  font-weight: 400;
+  font-family: "Times New Roman"  ;
+  line-height:normal;
+  margin:35px 0px;
+}
+
+.btn:hover{
+  background-color: rgb(0, 26, 128);
+  color: aliceblue;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container mx-auto w-75 ">
+    <div>
+      <h1 class="text-center">Quote of the Day</h1>
+      <p class="text-center">
+        Press the button below to recieve a random quote!
+      </p>
+      <button onclick="generateQuote()" class="btn">Generate quote</button>
+    </div>
+    <div>
+      <p id="displayQuote"></p>
+      <p class="text-primary fw-bold fs-5" id="displayAuthor"></p>
+    </div>
+  </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"> </script>
+  </body>
+</html>
